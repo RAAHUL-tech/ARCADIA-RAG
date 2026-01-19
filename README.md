@@ -53,12 +53,12 @@ Adaptive Pipeline Router
 │                                     │
 ▼                                     ▼
 Dynamic Chunking                     Lightweight Retrieval
-│                                     │
-▼                                     ▼
-Multi-Stage Retrieval               Fast Generation (vLLM)
-(Dense + BM25 + Metadata)                  │
-│                                     ▼
-▼                             Final Answer + Confidence
+│                                             │
+▼                                             ▼
+Multi-Stage Retrieval                 Fast Generation (vLLM)
+(Dense + BM25 + Metadata)                     │
+│                                             ▼
+▼                                     Final Answer + Confidence
 Fusion & Re-Ranking
 │
 ▼
